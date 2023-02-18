@@ -24,3 +24,4 @@ guests.insert(space, "Richey")
 
 print(f"Sadly, {busy} cannot make it :(")
 print(f"However {guests[space]} is taking their place!")
+print(f"The guest list is now {', '.join(guests)}!")
