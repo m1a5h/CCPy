@@ -7,11 +7,15 @@ guests = [
     "Archimedes",
     "Jesus",
     "Grothendieck",
+    "Emmy",
+    "Sophia",
     "Trotsky"
     ]
 
 for guest in sorted(guests):
     print(f"I would like {guest} to come to dinner")
+
+print(f"We have {len(guests)} coming for dinner!")
 
 busy = random.choice(guests)
 space = guests.index(busy)
