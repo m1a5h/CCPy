@@ -8,4 +8,4 @@ names = [
     "Mark"
 ]
 
-print("\n".join([f"I was good friends with {name}" for name in names]))
+print("\n".join([f"I was good friends with {name} at school" for name in names]))
